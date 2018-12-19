@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/five"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/five"
+        android:layout_marginBottom="6dp"
+        android:layout_toRightOf="@id/five"
+        android:background="@color/colorPrimaryDark" />
+
+
+    <TextView
+        android:id="@+id/six"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/three"
+        android:layout_toRightOf="@id/five"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/five"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toLeftOf="@id/three"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/nine"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/five"
+        android:layout_toRightOf="@id/five"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/eight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/five"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@id/nine"
+        android:background="@color/colorPrimaryDark" />
+
+
+    <TextView
+        android:id="@+id/four"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/two"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@id/two"
+        android:background="@color/colorPrimaryDark" />
+
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/four"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toLeftOf="@id/two"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/four"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@id/eight"
+        android:background="@color/colorPrimaryDark" />
+
+
+</RelativeLayout>
