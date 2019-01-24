@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="CONTENT">내용이 길다내용이 길다내용이 길다내용이 길다내용이 길다내용이 길다내용이 길다내용이 길다</string>
+
+    <string-array name="string_array">
+        <item>안</item>
+        <item>녕</item>
+        <item>하</item>
+        <item>세</item>
+        <item>요</item>
+    </string-array>
+
+</resources>
