@@ -9,31 +9,21 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/dog1" />
-
-    <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:scaleType="centerCrop"
         android:src="@drawable/dog2" />
 
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/dog1" />
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="빨간색"
+        android:text="안녕하세요"
         android:textColor="@color/RED"
-        android:textSize="30dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/CONTENT"
         android:textSize="20dp" />
-
 
 </LinearLayout>

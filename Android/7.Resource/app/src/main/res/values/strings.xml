@@ -1,14 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
 
-    <string name="CONTENT">내용이 길다내용이 길다내용이 길다내용이 길다내용이 길다내용이 길다내용이 길다내용이 길다</string>
 
-    <string-array name="string_array">
-        <item>안</item>
-        <item>녕</item>
-        <item>하</item>
-        <item>세</item>
-        <item>요</item>
-    </string-array>
+    <string name="long_text">굉장히 긴 텍스트 굉장히 긴 텍스트 굉장히 긴 텍스트굉장히 긴 텍스트 굉장히 긴 텍스트굉장히 긴 텍스트굉장히 긴 텍스트
+    </string>
 
 </resources>

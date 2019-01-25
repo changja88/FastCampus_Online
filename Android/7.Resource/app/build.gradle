@@ -3,8 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "resource.resource.resource"
-        minSdkVersion 21
+        applicationId "com.example.myapplication"
+        minSdkVersion 23
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"

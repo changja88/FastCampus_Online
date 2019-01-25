@@ -1,4 +1,4 @@
-package resource.resource.resource;
+package com.example.myapplication;
 
 import org.junit.Test;
 
